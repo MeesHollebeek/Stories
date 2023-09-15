@@ -94,9 +94,18 @@ public class EnemyEnemy : MonoBehaviour
     private IEnumerator WaitStillStaan()
     {
         Debug.Log("aangekomen");
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(2);
 
-        if (player.tag != "Enemyplayer")
+        StartCoroutine(WaitStillStaan2());
+
+    }
+
+    private IEnumerator WaitStillStaan2()
+    {
+        Debug.Log("aangekomen2");
+        yield return new WaitForSeconds(2);
+
+        if (player.tag != "player" && player.tag != "Speler")
         {
             player = gameObject.transform;
         }
