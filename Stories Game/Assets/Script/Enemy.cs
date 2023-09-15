@@ -88,19 +88,31 @@ public class Enemy : MonoBehaviour
 
         player = GameObject.Find("player").transform;
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("player"))
+        {
+            Debug.Log("JAAAAAAAAAAAAAAAAA");
+            player = gameObject.transform;
+        }
+
+    }
 
     private IEnumerator WaitStillStaan()
     {
         Debug.Log("aangekomen");
         yield return new WaitForSeconds(2);
-        StartCoroutine(WaitStillStaan2());
-
+        
+        if (player.tag != "player" && player.tag != "Speler")
+        {
+            StartCoroutine(WaitStillStaan2());
+        }
 
     }
 
     private IEnumerator WaitStillStaan2()
     {
-        Debug.Log("aangekomen2");
+        
         yield return new WaitForSeconds(2);
 
         if (player.tag != "player" && player.tag != "Speler")
@@ -180,32 +192,9 @@ public class Enemy : MonoBehaviour
         while (true)
         {
             yield return wait;
-            FieldofViewCheck();
+           
         }
     }
 
-    private void FieldofViewCheck()
-    {
-        Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
-
-        if(rangeChecks.Length != 0)
-        {
-            Transform target = rangeChecks[0].transform;
-            Vector3 directionToTarget = (target.position - transform.position).normalized;
-
-            if(Vector3.Angle(transform.forward, directionToTarget) < angle / 2)
-            {
-                float distanceToTarget = Vector3.Distance(transform.position, target.position);
-
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
-                    canseeplayer = true;
-                else
-                    canseeplayer = false;
-            }
-            else
-                canseeplayer= false;
-        }
-        else if (canseeplayer)
-            canseeplayer= false;
-    }
+ 
 }
