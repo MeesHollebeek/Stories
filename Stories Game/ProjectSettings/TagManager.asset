@@ -9,6 +9,8 @@ TagManager:
   - vuurtoren
   - Walkpoint
   - player
+  - speler
+  - Speler
   layers:
   - Default
   - TransparentFX

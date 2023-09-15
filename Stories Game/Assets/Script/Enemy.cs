@@ -40,17 +40,47 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         //view enemy
-        PlayerView = GameObject.FindGameObjectWithTag("Player");
+        PlayerView = GameObject.FindGameObjectWithTag("player");
+       
+
         StartCoroutine(FOVRoutine());
        
+    }
+    private void FixedUpdate()
+    {
+        player = GameObject.FindWithTag("player").transform;
     }
 
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
+        player = GameObject.Find("player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
-   
+    private void Update()
+    {
+        //Check for sight
+        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+
+        if (!canseeplayer && delay) Patroling();
+        if (canseeplayer)
+        {
+            delay = false;
+            ChasePlayer();
+        }
+        if (!delay && !canseeplayer)
+        {
+            StartCoroutine(WaitBeforePatrol());
+        }
+
+        if (NoSeeBoost)
+        {
+            agent.speed = 10;
+        }
+
+        canseeplayer = true;
+
+        player = GameObject.Find("player").transform;
+    }
     private void Patroling()
     {
         if (!walkPointSet) SearchWalkPoint();
@@ -104,34 +134,12 @@ public class Enemy : MonoBehaviour
         agent.speed = 12;
     }
 
-    private void Update()
-    {
-        //Check for sight
-        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
-        
-        if (!canseeplayer && delay) Patroling();
-        if (canseeplayer)
-        {
-            delay = false;
-            ChasePlayer();
-        }
-        if (!delay && !canseeplayer)
-        {
-            StartCoroutine(WaitBeforePatrol());          
-        }
-
-        if (NoSeeBoost)
-        {
-            agent.speed = 10;
-        }
-
-        canseeplayer = true;
-    }
+   
     private IEnumerator WaitBeforePatrol()
     {
         canseeplayer = true;
         yield return new WaitForSeconds(20);
-        canseeplayer = false;
+       // canseeplayer = false;
         delay = true;
     }
     //view enemy
