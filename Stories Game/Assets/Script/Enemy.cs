@@ -45,6 +45,7 @@ public class Enemy : MonoBehaviour
 
         StartCoroutine(FOVRoutine());
        
+
     }
     private void FixedUpdate()
     {
@@ -81,6 +82,8 @@ public class Enemy : MonoBehaviour
 
         player = GameObject.Find("player").transform;
     }
+
+   
     private void Patroling()
     {
         if (!walkPointSet) SearchWalkPoint();

@@ -173,9 +173,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1593829134}
+  Point2: {fileID: 1482719291}
 --- !u!65 &25242072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -291,7 +290,6 @@ MonoBehaviour:
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
-  Point3: {fileID: 0}
 --- !u!65 &34501227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -371,7 +369,7 @@ GameObject:
   - component: {fileID: 49454107}
   m_Layer: 6
   m_Name: Cube (6)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -537,9 +535,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 789129576}
+  Point2: {fileID: 1553094580}
 --- !u!65 &120478328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -653,9 +650,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1457831881}
+  Point2: {fileID: 789129576}
 --- !u!65 &131310234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -735,7 +731,7 @@ GameObject:
   - component: {fileID: 160840927}
   m_Layer: 6
   m_Name: Cube (29)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -786,7 +782,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1611866357}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 339656538}
   Point4: {fileID: 570892591}
 --- !u!65 &160840929
 BoxCollider:
@@ -901,9 +897,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1993766438}
+  Point2: {fileID: 1160010197}
 --- !u!65 &168596367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -983,7 +978,7 @@ GameObject:
   - component: {fileID: 207477727}
   m_Layer: 6
   m_Name: Cube (10)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1149,9 +1144,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 339656538}
+  Point2: {fileID: 160840925}
 --- !u!65 &220070853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1231,7 +1225,7 @@ GameObject:
   - component: {fileID: 231170287}
   m_Layer: 6
   m_Name: Cube (22)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1593,9 +1587,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1366971297}
+  Point2: {fileID: 1095656370}
 --- !u!65 &271184359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1807,9 +1800,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 418893699}
+  Point2: {fileID: 1457831881}
 --- !u!65 &334694954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1889,7 +1881,7 @@ GameObject:
   - component: {fileID: 337154293}
   m_Layer: 6
   m_Name: Cube (14)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1940,7 +1932,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 965573316}
   Point2: {fileID: 514234649}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 1160010197}
   Point4: {fileID: 570892591}
 --- !u!65 &337154295
 BoxCollider:
@@ -2119,7 +2111,7 @@ GameObject:
   - component: {fileID: 339017379}
   m_Layer: 6
   m_Name: Cube (16)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2170,7 +2162,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 941436435}
   Point2: {fileID: 1160010197}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 498267475}
   Point4: {fileID: 570892591}
 --- !u!65 &339017381
 BoxCollider:
@@ -2251,7 +2243,7 @@ GameObject:
   - component: {fileID: 339656540}
   m_Layer: 6
   m_Name: Cube (30)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2515,9 +2507,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 517364339}
+  Point2: {fileID: 1366971297}
 --- !u!65 &397536697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2631,9 +2622,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 207477725}
+  Point2: {fileID: 1553094580}
 --- !u!65 &413156081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2713,7 +2703,7 @@ GameObject:
   - component: {fileID: 418893701}
   m_Layer: 6
   m_Name: Cube (31)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2764,7 +2754,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 965573316}
   Point2: {fileID: 1457831881}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 514234649}
   Point4: {fileID: 570892591}
 --- !u!65 &418893703
 BoxCollider:
@@ -2879,9 +2869,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1095656370}
+  Point2: {fileID: 1621638974}
 --- !u!65 &487008043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2961,7 +2950,7 @@ GameObject:
   - component: {fileID: 498267477}
   m_Layer: 6
   m_Name: Cube (19)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3012,7 +3001,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 734281216}
   Point2: {fileID: 339017377}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 734281216}
   Point4: {fileID: 897537946}
 --- !u!65 &498267479
 BoxCollider:
@@ -3225,7 +3214,7 @@ GameObject:
   - component: {fileID: 517364341}
   m_Layer: 6
   m_Name: Cube (20)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,7 +3265,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 750251940}
   Point2: {fileID: 734281216}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 1366971297}
   Point4: {fileID: 570892591}
 --- !u!65 &517364343
 BoxCollider:
@@ -3587,9 +3576,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 207477725}
+  Point2: {fileID: 49454105}
 --- !u!65 &553016178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3800,9 +3788,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 789129576}
+  Point2: {fileID: 49454105}
 --- !u!65 &602728797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3981,7 +3968,6 @@ MonoBehaviour:
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
-  Point3: {fileID: 0}
 --- !u!1 &665736301
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,9 +4018,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1611866357}
+  Point2: {fileID: 779287928}
 --- !u!65 &665736304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4361,9 +4346,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 231170285}
+  Point2: {fileID: 207477725}
 --- !u!65 &719715094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4477,9 +4461,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1611866357}
+  Point2: {fileID: 160840925}
 --- !u!65 &725622579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4559,7 +4542,7 @@ GameObject:
   - component: {fileID: 734281218}
   m_Layer: 6
   m_Name: Cube (18)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4610,7 +4593,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 941436435}
   Point2: {fileID: 498267475}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 517364339}
   Point4: {fileID: 897537946}
 --- !u!65 &734281220
 BoxCollider:
@@ -4840,7 +4823,7 @@ GameObject:
   - component: {fileID: 750251942}
   m_Layer: 6
   m_Name: Cube (21)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4972,7 +4955,7 @@ GameObject:
   - component: {fileID: 779287930}
   m_Layer: 6
   m_Name: Cube (8)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5023,7 +5006,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 339656538}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 1875117684}
   Point4: {fileID: 897537946}
 --- !u!65 &779287932
 BoxCollider:
@@ -5104,7 +5087,7 @@ GameObject:
   - component: {fileID: 789129578}
   m_Layer: 6
   m_Name: Cube (3)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5270,9 +5253,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 941436435}
+  Point2: {fileID: 750251940}
 --- !u!65 &802330212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5721,7 +5703,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897542978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -165.49, y: 67.855, z: -1162.3}
+  m_LocalPosition: {x: -165.49, y: 67.855, z: -1172.72}
   m_LocalScale: {x: 3.5452, y: 3.5452, z: 3.5452}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5853,9 +5835,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1800458610}
+  Point2: {fileID: 207477725}
 --- !u!65 &901425983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5935,7 +5916,7 @@ GameObject:
   - component: {fileID: 941436437}
   m_Layer: 6
   m_Name: Cube (17)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6067,7 +6048,7 @@ GameObject:
   - component: {fileID: 960834600}
   m_Layer: 6
   m_Name: Cube (27)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6118,7 +6099,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 1095656370}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 1482719291}
   Point4: {fileID: 570892591}
 --- !u!65 &960834602
 BoxCollider:
@@ -6233,9 +6214,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1875117684}
+  Point2: {fileID: 779287928}
 --- !u!65 &961127244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6349,9 +6329,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 517364339}
+  Point2: {fileID: 750251940}
 --- !u!65 &961846745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6549,7 +6528,7 @@ GameObject:
   - component: {fileID: 965573318}
   m_Layer: 6
   m_Name: Cube (2)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6812,9 +6791,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 965573316}
+  Point2: {fileID: 1993766438}
 --- !u!65 &1007114247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6928,9 +6906,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1593829134}
+  Point2: {fileID: 1800458610}
 --- !u!65 &1014261393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7044,9 +7021,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 960834598}
+  Point2: {fileID: 1095656370}
 --- !u!65 &1034625717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7160,9 +7136,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1160010197}
+  Point2: {fileID: 337154291}
 --- !u!65 &1037681928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7276,9 +7251,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1482719291}
+  Point2: {fileID: 960834598}
 --- !u!65 &1043836693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7490,9 +7464,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 337154291}
+  Point2: {fileID: 514234649}
 --- !u!65 &1070805055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7704,9 +7677,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 965573316}
+  Point2: {fileID: 418893699}
 --- !u!65 &1081512529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7820,9 +7792,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 941436435}
+  Point2: {fileID: 339017377}
 --- !u!65 &1088896064
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7902,7 +7873,7 @@ GameObject:
   - component: {fileID: 1095656372}
   m_Layer: 6
   m_Name: Cube (24)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7953,7 +7924,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 1366971297}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 960834598}
   Point4: {fileID: 897537946}
 --- !u!65 &1095656374
 BoxCollider:
@@ -8068,9 +8039,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1621638974}
+  Point2: {fileID: 1800458610}
 --- !u!65 &1118889736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8180,7 +8150,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 4e37f153d848f6d448aa84bf9cab935a, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: ec9d0bdd4fe1e6e4fbc1f3fb5b0a0d61, type: 2}
 --- !u!114 &1153040246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8226,7 +8196,7 @@ GameObject:
   - component: {fileID: 1160010199}
   m_Layer: 6
   m_Name: Cube (13)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8277,7 +8247,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 337154291}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 339017377}
   Point4: {fileID: 897537946}
 --- !u!65 &1160010201
 BoxCollider:
@@ -8490,9 +8460,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1482719291}
+  Point2: {fileID: 1621638974}
 --- !u!65 &1164696473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8704,9 +8673,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 498267475}
+  Point2: {fileID: 339017377}
 --- !u!65 &1216390949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8820,9 +8788,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1621638974}
+  Point2: {fileID: 231170285}
 --- !u!65 &1257396438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8970,9 +8937,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1993766438}
+  Point2: {fileID: 941436435}
 --- !u!65 &1299733883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9113,7 +9079,7 @@ GameObject:
   - component: {fileID: 1366971299}
   m_Layer: 6
   m_Name: Cube (23)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9164,7 +9130,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 231170285}
   Point2: {fileID: 517364339}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 1095656370}
   Point4: {fileID: 897537946}
 --- !u!65 &1366971301
 BoxCollider:
@@ -9279,9 +9245,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 965573316}
+  Point2: {fileID: 789129576}
 --- !u!65 &1378801942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9395,9 +9360,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 965573316}
+  Point2: {fileID: 337154291}
 --- !u!65 &1395112993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9511,9 +9475,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 734281216}
+  Point2: {fileID: 498267475}
 --- !u!65 &1410079904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9767,9 +9730,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 750251940}
+  Point2: {fileID: 231170285}
 --- !u!1 &1445810546
 GameObject:
   m_ObjectHideFlags: 0
@@ -9820,9 +9782,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 941436435}
+  Point2: {fileID: 734281216}
 --- !u!65 &1445810549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9902,7 +9863,7 @@ GameObject:
   - component: {fileID: 1457831883}
   m_Layer: 6
   m_Name: Cube (4)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9953,7 +9914,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 789129576}
   Point2: {fileID: 1875117684}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 418893699}
   Point4: {fileID: 897537946}
 --- !u!65 &1457831885
 BoxCollider:
@@ -10068,9 +10029,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1553094580}
+  Point2: {fileID: 1993766438}
 --- !u!65 &1465242193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10150,7 +10110,7 @@ GameObject:
   - component: {fileID: 1482719293}
   m_Layer: 6
   m_Name: Cube (26)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10201,7 +10161,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 960834598}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 1593829134}
   Point4: {fileID: 897537946}
 --- !u!65 &1482719295
 BoxCollider:
@@ -10414,9 +10374,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 337154291}
-  Point2: {fileID: 969710941}
-  Point3: {fileID: 570892591}
+  Point1: {fileID: 418893699}
+  Point2: {fileID: 514234649}
 --- !u!65 &1521178576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10496,7 +10455,7 @@ GameObject:
   - component: {fileID: 1553094582}
   m_Layer: 6
   m_Name: Cube (11)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10662,9 +10621,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1593829134}
+  Point2: {fileID: 160840925}
 --- !u!65 &1555298278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10778,9 +10736,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 339656538}
+  Point2: {fileID: 779287928}
 --- !u!65 &1579164284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10860,7 +10817,7 @@ GameObject:
   - component: {fileID: 1593829136}
   m_Layer: 6
   m_Name: Cube (28)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10911,7 +10868,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 1800458610}
   Point2: {fileID: 1482719291}
-  Point3: {fileID: 570892591}
+  Point3: {fileID: 160840925}
   Point4: {fileID: 897537946}
 --- !u!65 &1593829138
 BoxCollider:
@@ -10992,7 +10949,7 @@ GameObject:
   - component: {fileID: 1611866359}
   m_Layer: 6
   m_Name: Cube (7)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11158,9 +11115,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 517364339}
+  Point2: {fileID: 734281216}
 --- !u!65 &1618066080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11240,7 +11196,7 @@ GameObject:
   - component: {fileID: 1621638976}
   m_Layer: 6
   m_Name: Cube (25)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11504,9 +11460,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1366971297}
+  Point2: {fileID: 231170285}
 --- !u!65 &1685564127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11620,9 +11575,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 49454105}
+  Point2: {fileID: 1611866357}
 --- !u!65 &1687476385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11736,9 +11690,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 49454105}
+  Point2: {fileID: 1875117684}
 --- !u!65 &1713733110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11901,9 +11854,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1611866357}
+  Point2: {fileID: 1800458610}
 --- !u!65 &1767011057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11983,7 +11935,7 @@ GameObject:
   - component: {fileID: 1800458612}
   m_Layer: 6
   m_Name: Cube (9)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12213,7 +12165,7 @@ GameObject:
   - component: {fileID: 1875117686}
   m_Layer: 6
   m_Name: Cube (5)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12264,7 +12216,7 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Point1: {fileID: 49454105}
   Point2: {fileID: 779287928}
-  Point3: {fileID: 969710941}
+  Point3: {fileID: 1457831881}
   Point4: {fileID: 897537946}
 --- !u!65 &1875117688
 BoxCollider:
@@ -12508,9 +12460,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1160010197}
+  Point2: {fileID: 339017377}
 --- !u!65 &1932719908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12624,9 +12575,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 1457831881}
+  Point2: {fileID: 1875117684}
 --- !u!65 &1945371726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12706,7 +12656,7 @@ GameObject:
   - component: {fileID: 1993766440}
   m_Layer: 6
   m_Name: Cube (12)
-  m_TagString: player
+  m_TagString: wrong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12970,9 +12920,8 @@ MonoBehaviour:
   Script: {fileID: 897542983}
   Destroyed: 0
   Bakker: {fileID: 1153040244}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
+  Point1: {fileID: 750251940}
+  Point2: {fileID: 1553094580}
 --- !u!65 &2024012176
 BoxCollider:
   m_ObjectHideFlags: 0

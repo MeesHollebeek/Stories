@@ -9,7 +9,7 @@ public class MurenKapot : MonoBehaviour
     public GameObject Bakker;
     public GameObject Point1;
     public GameObject Point2;
-    public GameObject Point3;
+   
 
     void Start()
     {
@@ -23,9 +23,9 @@ public class MurenKapot : MonoBehaviour
         Bakker.GetComponent<NavigationBaker>().enabled = true;
         Destroy(gameObject);
 
-        Point1.SetActive(false);
-        Point2.SetActive(false);
-        Point3.SetActive(false);
+       Point1.tag = "player";
+       Point2.tag = "player";
+      
 
 
 
