@@ -17,7 +17,7 @@ public class NavigationBaker : MonoBehaviour
     void Update()
     {
         surfaces.BuildNavMesh();
-        if (Bakker.GetComponent<NavigationBaker>().enabled = true)
+        if (Bakker.GetComponent<NavigationBaker>().enabled == true)
         {
             StartCoroutine(UpdateNav());
         }

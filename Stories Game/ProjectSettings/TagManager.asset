@@ -12,6 +12,7 @@ TagManager:
   - speler
   - Speler
   - wall
+  - Enemyplayer
   layers:
   - Default
   - TransparentFX

@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.UI;
 
-public class Enemy : MonoBehaviour
+public class EnemyEnemy : MonoBehaviour
 {
     //view enemy
     public float radius;
-    [Range(0,360)]
+    [Range(0, 360)]
     public float angle;
 
     public GameObject PlayerView;
+
+    public Transform StillStaan;
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     public bool NoSeeBoost = false;
 
     //ai
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
 
     public Transform player;
 
@@ -40,18 +40,18 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         //view enemy
-        PlayerView = GameObject.FindGameObjectWithTag("player");
-       
+        PlayerView = GameObject.FindGameObjectWithTag("Enemyplayer");
+
 
         StartCoroutine(FOVRoutine());
-       
+
 
     }
     private void FixedUpdate()
     {
-        player = GameObject.FindWithTag("player").transform;
+        player = GameObject.FindWithTag("Enemyplayer").transform;
 
-        if (player.tag == "player")
+        if (player.tag == "Enemyplayer")
         {
             StartCoroutine(WaitStillStaan());
             Debug.Log("begint");
@@ -60,8 +60,8 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("player").transform;
-        agent = GetComponent<NavMeshAgent>();
+        player = GameObject.Find("Enemyplayer").transform;
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
     private void Update()
     {
@@ -86,21 +86,14 @@ public class Enemy : MonoBehaviour
 
         canseeplayer = true;
 
-        player = GameObject.Find("player").transform;
+        player = GameObject.Find("Enemyplayer").transform;
+
+        
     }
 
     private IEnumerator WaitStillStaan()
     {
         Debug.Log("aangekomen");
-        yield return new WaitForSeconds(10);
-        StartCoroutine(WaitStillStaan2());
-
-
-    }
-
-    private IEnumerator WaitStillStaan2()
-    {
-        Debug.Log("aangekomen2");
         yield return new WaitForSeconds(10);
 
         if (player.tag != "Enemyplayer")
@@ -129,15 +122,15 @@ public class Enemy : MonoBehaviour
         //calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
-       
+
         if (NoSeeBoost)
         {
             agent.speed = 6;
         }
         //minimum of 20 distance to walk from standing point
-        if( randomZ > - 20 && randomZ < 0)
+        if (randomZ > -20 && randomZ < 0)
         {
-            randomZ = randomZ - 20; 
+            randomZ = randomZ - 20;
         }
         if (randomZ < 20 && randomZ > 0)
         {
@@ -164,12 +157,12 @@ public class Enemy : MonoBehaviour
         agent.speed = 12;
     }
 
-   
+
     private IEnumerator WaitBeforePatrol()
     {
         canseeplayer = true;
         yield return new WaitForSeconds(20);
-       // canseeplayer = false;
+        // canseeplayer = false;
         delay = true;
     }
     //view enemy
@@ -188,12 +181,12 @@ public class Enemy : MonoBehaviour
     {
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
 
-        if(rangeChecks.Length != 0)
+        if (rangeChecks.Length != 0)
         {
             Transform target = rangeChecks[0].transform;
             Vector3 directionToTarget = (target.position - transform.position).normalized;
 
-            if(Vector3.Angle(transform.forward, directionToTarget) < angle / 2)
+            if (Vector3.Angle(transform.forward, directionToTarget) < angle / 2)
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
@@ -203,9 +196,9 @@ public class Enemy : MonoBehaviour
                     canseeplayer = false;
             }
             else
-                canseeplayer= false;
+                canseeplayer = false;
         }
         else if (canseeplayer)
-            canseeplayer= false;
+            canseeplayer = false;
     }
 }

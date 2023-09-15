@@ -5,7 +5,7 @@ using UnityEngine;
 public class DestroyWalkPoint : MonoBehaviour
 {
     public Enemy Script;
-
+    public EnemyEnemy Script2;
     public GameObject Point1;
     public GameObject Point2;
     public GameObject Point3;
@@ -14,6 +14,7 @@ public class DestroyWalkPoint : MonoBehaviour
     void Start() 
     {
         Script.GetComponent<Enemy>();
+        Script2.GetComponent<EnemyEnemy>();
     }
 
 
@@ -23,7 +24,9 @@ public class DestroyWalkPoint : MonoBehaviour
 
         if (other.gameObject.CompareTag("Speler"))
         {
+            gameObject.tag = "wrong";
             Script.enabled = false;
+            Script2.enabled = false;
             gameObject.SetActive(false);
             Debug.Log("hit");
 
