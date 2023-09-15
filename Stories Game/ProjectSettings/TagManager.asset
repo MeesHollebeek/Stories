@@ -7,14 +7,16 @@ TagManager:
   - water
   - wrong
   - vuurtoren
+  - Walkpoint
+  - player
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - nav
   - Water
   - UI
-  - 
+  - player
   - 
   - 
   - 

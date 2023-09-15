@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("player").transform;
+        player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
    
@@ -74,7 +74,7 @@ public class Enemy : MonoBehaviour
         {
             agent.speed = 6;
         }
-
+        //minimum of 20 distance to walk from standing point
         if( randomZ > - 20 && randomZ < 0)
         {
             randomZ = randomZ - 20; 
@@ -124,6 +124,8 @@ public class Enemy : MonoBehaviour
         {
             agent.speed = 10;
         }
+
+        canseeplayer = true;
     }
     private IEnumerator WaitBeforePatrol()
     {

@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class NavigationBaker : MonoBehaviour
 {
-
+    public GameObject Bakker;
     public NavMeshSurface surfaces;
 
     // Use this for initialization
@@ -14,14 +14,19 @@ public class NavigationBaker : MonoBehaviour
         StartCoroutine(UpdateNav());
         
     }
+    void Update()
+    {
+        surfaces.BuildNavMesh();
+    }
 
     private IEnumerator UpdateNav()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1f);
 
-        surfaces.BuildNavMesh();
+       
+        Bakker.GetComponent<NavigationBaker>().enabled = false;
 
-        StartCoroutine(UpdateNav());
+        
     }
 
 }
