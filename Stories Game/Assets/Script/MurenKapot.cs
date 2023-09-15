@@ -5,7 +5,6 @@ using UnityEngine;
 public class MurenKapot : MonoBehaviour
 {
     public Enemy Script;
-    public bool Destroyed = false;
     public GameObject Bakker;
     public GameObject Point1;
     public GameObject Point2;
@@ -18,19 +17,22 @@ public class MurenKapot : MonoBehaviour
 
     void OnMouseDown()
     {
-        Destroyed= true;
+        
         Script.enabled = true;
-        Bakker.GetComponent<NavigationBaker>().enabled = true;
+        
         Destroy(gameObject);
 
        Point1.tag = "player";
        Point2.tag = "player";
-      
+        StartCoroutine(stopcalculation());
+    }
 
-
-
-
-
-
+    private IEnumerator stopcalculation()
+    {
+        Debug.Log("true");
+        Bakker.GetComponent<NavigationBaker>().enabled = false;
+        yield return new WaitForSeconds(1);
+        Debug.Log("false");
+        Bakker.GetComponent<NavigationBaker>().enabled = false;
     }
 }

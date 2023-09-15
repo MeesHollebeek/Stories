@@ -17,6 +17,7 @@ public class NavigationBaker : MonoBehaviour
     void Update()
     {
         surfaces.BuildNavMesh();
+        
     }
 
     private IEnumerator UpdateNav()
@@ -24,7 +25,7 @@ public class NavigationBaker : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
        
-        Bakker.GetComponent<NavigationBaker>().enabled = false;
+      //  Bakker.GetComponent<NavigationBaker>().enabled = false;
 
         
     }

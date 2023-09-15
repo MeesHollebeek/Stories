@@ -171,7 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1482719291}
@@ -286,7 +285,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
@@ -533,7 +531,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 789129576}
   Point2: {fileID: 1553094580}
@@ -648,7 +645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1457831881}
   Point2: {fileID: 789129576}
@@ -895,7 +891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 1160010197}
@@ -1142,7 +1137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 339656538}
   Point2: {fileID: 160840925}
@@ -1585,7 +1579,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1366971297}
   Point2: {fileID: 1095656370}
@@ -1798,7 +1791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 418893699}
   Point2: {fileID: 1457831881}
@@ -2505,7 +2497,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 517364339}
   Point2: {fileID: 1366971297}
@@ -2620,7 +2611,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 207477725}
   Point2: {fileID: 1553094580}
@@ -2867,7 +2857,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1095656370}
   Point2: {fileID: 1621638974}
@@ -3574,7 +3563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 207477725}
   Point2: {fileID: 49454105}
@@ -3786,7 +3774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 789129576}
   Point2: {fileID: 49454105}
@@ -3964,7 +3951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
@@ -4016,7 +4002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 779287928}
@@ -4344,7 +4329,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 231170285}
   Point2: {fileID: 207477725}
@@ -4459,7 +4443,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 160840925}
@@ -5251,7 +5234,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 941436435}
   Point2: {fileID: 750251940}
@@ -5833,7 +5815,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1800458610}
   Point2: {fileID: 207477725}
@@ -6212,7 +6193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1875117684}
   Point2: {fileID: 779287928}
@@ -6327,7 +6307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 517364339}
   Point2: {fileID: 750251940}
@@ -6789,7 +6768,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 965573316}
   Point2: {fileID: 1993766438}
@@ -6904,7 +6882,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1800458610}
@@ -7019,7 +6996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 960834598}
   Point2: {fileID: 1095656370}
@@ -7134,7 +7110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1160010197}
   Point2: {fileID: 337154291}
@@ -7249,7 +7224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 960834598}
@@ -7462,7 +7436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 337154291}
   Point2: {fileID: 514234649}
@@ -7675,7 +7648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 965573316}
   Point2: {fileID: 418893699}
@@ -7790,7 +7762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 941436435}
   Point2: {fileID: 339017377}
@@ -8037,7 +8008,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 1800458610}
@@ -8158,7 +8128,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153040244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bf417f29c7d53645adec7a15b06e326, type: 3}
   m_Name: 
@@ -8458,7 +8428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 1621638974}
@@ -8671,7 +8640,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 498267475}
   Point2: {fileID: 339017377}
@@ -8786,7 +8754,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 231170285}
@@ -8935,7 +8902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 941436435}
@@ -9243,7 +9209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 965573316}
   Point2: {fileID: 789129576}
@@ -9358,7 +9323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 965573316}
   Point2: {fileID: 337154291}
@@ -9473,7 +9437,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 734281216}
   Point2: {fileID: 498267475}
@@ -9613,7 +9576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ca080883d7ca8f54f806fa41e236203e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca080883d7ca8f54f806fa41e236203e, type: 3}
@@ -9728,7 +9691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 750251940}
   Point2: {fileID: 231170285}
@@ -9780,7 +9742,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 941436435}
   Point2: {fileID: 734281216}
@@ -10027,7 +9988,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1553094580}
   Point2: {fileID: 1993766438}
@@ -10372,7 +10332,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 418893699}
   Point2: {fileID: 514234649}
@@ -10619,7 +10578,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 160840925}
@@ -10734,7 +10692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 339656538}
   Point2: {fileID: 779287928}
@@ -11113,7 +11070,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 517364339}
   Point2: {fileID: 734281216}
@@ -11458,7 +11414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1366971297}
   Point2: {fileID: 231170285}
@@ -11573,7 +11528,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 49454105}
   Point2: {fileID: 1611866357}
@@ -11688,7 +11642,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 49454105}
   Point2: {fileID: 1875117684}
@@ -11852,7 +11805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 1800458610}
@@ -12458,7 +12410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1160010197}
   Point2: {fileID: 339017377}
@@ -12573,7 +12524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 1457831881}
   Point2: {fileID: 1875117684}
@@ -12918,7 +12868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
-  Destroyed: 0
   Bakker: {fileID: 1153040244}
   Point1: {fileID: 750251940}
   Point2: {fileID: 1553094580}
