@@ -34,7 +34,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Base_Scale: 0.15
+    - _Base_Scale: 0.12
     - _Base_Strength: 1
     - _Base_speed: 0.9
     - _Curvature_Radius: -566

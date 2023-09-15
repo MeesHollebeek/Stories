@@ -11,21 +11,25 @@ public class NavigationBaker : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        StartCoroutine(UpdateNav());
+        
         
     }
     void Update()
     {
         surfaces.BuildNavMesh();
+        if (Bakker.GetComponent<NavigationBaker>().enabled = true)
+        {
+            StartCoroutine(UpdateNav());
+        }
         
     }
 
     private IEnumerator UpdateNav()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
 
-       
-      //  Bakker.GetComponent<NavigationBaker>().enabled = false;
+        Bakker.GetComponent<NavigationBaker>().enabled = false;
+          
 
         
     }

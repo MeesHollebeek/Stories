@@ -24,15 +24,10 @@ public class MurenKapot : MonoBehaviour
 
        Point1.tag = "player";
        Point2.tag = "player";
-        StartCoroutine(stopcalculation());
+     
+        Bakker.GetComponent<NavigationBaker>().enabled = true;
+
     }
 
-    private IEnumerator stopcalculation()
-    {
-        Debug.Log("true");
-        Bakker.GetComponent<NavigationBaker>().enabled = false;
-        yield return new WaitForSeconds(1);
-        Debug.Log("false");
-        Bakker.GetComponent<NavigationBaker>().enabled = false;
-    }
+
 }
