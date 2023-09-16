@@ -51,7 +51,7 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindWithTag("player").transform;
 
-        if (player.tag == "player")
+        if (player.tag != "player")
         {
             StartCoroutine(WaitStillStaan());
             Debug.Log("begint");
@@ -90,9 +90,9 @@ public class Enemy : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("player"))
+        if (other.gameObject.CompareTag("player") || other.gameObject.CompareTag("wrong") || other.gameObject.CompareTag("Enemyplayer"))
         {
-            Debug.Log("JAAAAAAAAAAAAAAAAA");
+           
             player = gameObject.transform;
         }
 
@@ -100,10 +100,10 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator WaitStillStaan()
     {
-        Debug.Log("aangekomen");
+       
         yield return new WaitForSeconds(2);
         
-        if (player.tag != "player" && player.tag != "Speler")
+        if (player.tag != "player" && player.tag != "Speler" && player.tag != "player")
         {
             StartCoroutine(WaitStillStaan2());
         }
@@ -115,7 +115,7 @@ public class Enemy : MonoBehaviour
         
         yield return new WaitForSeconds(2);
 
-        if (player.tag != "player" && player.tag != "Speler")
+        if (player.tag != "player" && player.tag != "Speler" && player.tag != "player")
         {
             player = gameObject.transform;
         }

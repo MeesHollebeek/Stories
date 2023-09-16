@@ -6,6 +6,8 @@ public class DestroyWalkPoint : MonoBehaviour
 {
     public Enemy Script;
     public EnemyEnemy Script2;
+    public GameObject NavPlayer;
+    public GameObject NavEnemy;
     public GameObject Point1;
     public GameObject Point2;
     public GameObject Point3;
@@ -17,18 +19,29 @@ public class DestroyWalkPoint : MonoBehaviour
         Script2.GetComponent<EnemyEnemy>();
     }
 
+    void Update()
+    {
+
+        if(NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled == false)
+        {
+            gameObject.tag = "wrong";
+        }
+    }
+
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("hit");
+
 
         if (other.gameObject.CompareTag("Speler"))
         {
             gameObject.tag = "wrong";
             Script.enabled = false;
             Script2.enabled = false;
+            NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+            NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             gameObject.SetActive(false);
-            Debug.Log("hit");
+  
 
             Point1.SetActive(true);
             Point2.SetActive(true);

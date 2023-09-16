@@ -172,6 +172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1482719291}
@@ -240,123 +242,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25242069}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &34501224
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 34501225}
-  - component: {fileID: 34501229}
-  - component: {fileID: 34501228}
-  - component: {fileID: 34501227}
-  - component: {fileID: 34501226}
-  m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &34501225
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34501224}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.160004, y: 6.960003, z: -40.319946}
-  m_LocalScale: {x: 1, y: 1, z: 12.844253}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2115804029}
-  m_RootOrder: 41
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &34501226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34501224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd9221ef82aebe44e997fea4a03cd323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Script: {fileID: 897542983}
-  Script2: {fileID: 1855989056}
-  nav: {fileID: 1153040246}
-  Point1: {fileID: 0}
-  Point2: {fileID: 0}
-  Point3: {fileID: 0}
-  Point4: {fileID: 0}
---- !u!65 &34501227
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34501224}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &34501228
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34501224}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &34501229
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34501224}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &49454105
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1875117684}
   Point2: {fileID: 207477725}
   Point3: {fileID: 789129576}
@@ -541,6 +428,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 871608621}
   Point2: {fileID: 2024583086}
   Point3: {fileID: 1580466805}
@@ -674,6 +563,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 389720713}
   Point2: {fileID: 2024583086}
   Point3: {fileID: 312139230}
@@ -807,6 +698,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1004688384}
   Point2: {fileID: 1668675257}
   Point3: {fileID: 1004688384}
@@ -938,6 +831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 789129576}
   Point2: {fileID: 1553094580}
@@ -1055,6 +950,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1457831881}
   Point2: {fileID: 789129576}
@@ -1189,6 +1086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1611866357}
   Point3: {fileID: 339656538}
@@ -1305,6 +1204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 1160010197}
@@ -1439,6 +1340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 49454105}
   Point2: {fileID: 1800458610}
   Point3: {fileID: 1553094580}
@@ -1555,6 +1458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 339656538}
   Point2: {fileID: 160840925}
@@ -1689,6 +1594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1366971297}
   Point2: {fileID: 750251940}
   Point3: {fileID: 1621638974}
@@ -1807,6 +1714,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 389720713}
   Point2: {fileID: 2056891873}
   Point3: {fileID: 1720152520}
@@ -2136,6 +2045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1873660631}
   Point2: {fileID: 949457730}
   Point3: {fileID: 312139230}
@@ -2251,7 +2162,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &271184358
 MonoBehaviour:
@@ -2267,6 +2178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1366971297}
   Point2: {fileID: 1095656370}
@@ -2386,6 +2299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 265736700}
   Point2: {fileID: 381690356}
   Point3: {fileID: 71315309}
@@ -2615,6 +2530,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 418893699}
   Point2: {fileID: 1457831881}
@@ -2749,6 +2666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 965573316}
   Point2: {fileID: 514234649}
   Point3: {fileID: 1160010197}
@@ -2980,6 +2899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 941436435}
   Point2: {fileID: 1160010197}
   Point3: {fileID: 498267475}
@@ -3113,6 +3034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 160840925}
   Point2: {fileID: 779287928}
   Point3: {fileID: 969710941}
@@ -3231,6 +3154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 312139230}
   Point2: {fileID: 1873660631}
   Point3: {fileID: 1019909705}
@@ -3462,6 +3387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 312139230}
   Point2: {fileID: 1019909705}
   Point3: {fileID: 389720713}
@@ -3595,6 +3522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 71315309}
   Point2: {fileID: 381690356}
   Point3: {fileID: 236443293}
@@ -3710,7 +3639,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &397536696
 MonoBehaviour:
@@ -3726,6 +3655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 517364339}
   Point2: {fileID: 1366971297}
@@ -3843,6 +3774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 207477725}
   Point2: {fileID: 1553094580}
@@ -3977,6 +3910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 965573316}
   Point2: {fileID: 1457831881}
   Point3: {fileID: 514234649}
@@ -4110,6 +4045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1148208908}
   Point2: {fileID: 1090109906}
   Point3: {fileID: 1733305738}
@@ -4226,6 +4163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1095656370}
   Point2: {fileID: 1621638974}
@@ -4360,6 +4299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 734281216}
   Point2: {fileID: 339017377}
   Point3: {fileID: 734281216}
@@ -4493,6 +4434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 337154291}
   Point2: {fileID: 418893699}
   Point3: {fileID: 969710941}
@@ -4626,6 +4569,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 750251940}
   Point2: {fileID: 734281216}
   Point3: {fileID: 1366971297}
@@ -4938,6 +4883,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 207477725}
   Point2: {fileID: 49454105}
@@ -5154,6 +5101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 949457730}
   Point2: {fileID: 1004688384}
   Point3: {fileID: 1873660631}
@@ -5285,6 +5234,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 789129576}
   Point2: {fileID: 49454105}
@@ -5465,6 +5416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
@@ -5521,6 +5474,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1148208908}
   Point2: {fileID: 1733305738}
   Point3: {fileID: 1503148128}
@@ -5652,6 +5607,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 779287928}
@@ -5737,7 +5694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -5749,8 +5706,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0
+  m_Color: {r: 0.9622642, g: 0.76863784, b: 0.24056605, a: 1}
+  m_Intensity: 1.12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5982,6 +5939,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 231170285}
   Point2: {fileID: 207477725}
@@ -6099,6 +6058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 160840925}
@@ -6233,6 +6194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 941436435}
   Point2: {fileID: 498267475}
   Point3: {fileID: 517364339}
@@ -6515,6 +6478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1553094580}
   Point2: {fileID: 231170285}
   Point3: {fileID: 517364339}
@@ -6648,6 +6613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 339656538}
   Point3: {fileID: 1875117684}
@@ -6781,6 +6748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1457831881}
   Point2: {fileID: 1553094580}
   Point3: {fileID: 965573316}
@@ -6881,7 +6850,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &802330211
 MonoBehaviour:
@@ -6897,6 +6866,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 941436435}
   Point2: {fileID: 750251940}
@@ -7211,6 +7182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 65022704}
   Point2: {fileID: 1902060397}
   Point3: {fileID: 1090109906}
@@ -7536,8 +7509,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.49999997
-  m_Speed: 24
-  m_Acceleration: 20
+  m_Speed: 3.5
+  m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 600
   m_StoppingDistance: 0
@@ -7562,6 +7535,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 0}
+  NavPlayer: {fileID: 0}
+  NavEnemy: {fileID: 0}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
   Point3: {fileID: 0}
@@ -7615,6 +7590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1800458610}
   Point2: {fileID: 207477725}
@@ -7749,6 +7726,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 339017377}
   Point3: {fileID: 750251940}
@@ -7867,6 +7846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1450706581}
   Point2: {fileID: 265736700}
   Point3: {fileID: 597762084}
@@ -8015,6 +7996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 1095656370}
   Point3: {fileID: 1482719291}
@@ -8131,6 +8114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1875117684}
   Point2: {fileID: 779287928}
@@ -8248,6 +8233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 517364339}
   Point2: {fileID: 750251940}
@@ -8500,6 +8487,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 337154291}
   Point2: {fileID: 418893699}
   Point3: {fileID: 789129576}
@@ -8715,6 +8704,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1026156666}
   Point2: {fileID: 91222824}
   Point3: {fileID: 597762084}
@@ -8846,6 +8837,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 965573316}
   Point2: {fileID: 1993766438}
@@ -8963,6 +8956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 1800458610}
@@ -9082,6 +9077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 381690356}
   Point2: {fileID: 354517689}
   Point3: {fileID: 381690356}
@@ -9215,6 +9212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 2040112684}
   Point2: {fileID: 1668675257}
   Point3: {fileID: 949457730}
@@ -9330,7 +9329,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1034625716
 MonoBehaviour:
@@ -9346,6 +9345,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 960834598}
   Point2: {fileID: 1095656370}
@@ -9463,6 +9464,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1160010197}
   Point2: {fileID: 337154291}
@@ -9580,6 +9583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 960834598}
@@ -9795,6 +9800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 337154291}
   Point2: {fileID: 514234649}
@@ -10010,6 +10017,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 965573316}
   Point2: {fileID: 418893699}
@@ -10111,7 +10120,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1088896063
 MonoBehaviour:
@@ -10127,6 +10136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 941436435}
   Point2: {fileID: 339017377}
@@ -10246,6 +10257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1580466805}
   Point2: {fileID: 871608621}
   Point3: {fileID: 474268264}
@@ -10394,6 +10407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 1366971297}
   Point3: {fileID: 960834598}
@@ -10510,6 +10525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 1800458610}
@@ -10629,6 +10646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 651369489}
   Point2: {fileID: 474268264}
   Point3: {fileID: 1580466805}
@@ -10853,6 +10872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 337154291}
   Point3: {fileID: 339017377}
@@ -11067,6 +11088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1482719291}
   Point2: {fileID: 1621638974}
@@ -11266,7 +11289,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1216390948
 MonoBehaviour:
@@ -11282,6 +11305,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 498267475}
   Point2: {fileID: 339017377}
@@ -11399,6 +11424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 231170285}
@@ -11550,6 +11577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1993766438}
   Point2: {fileID: 941436435}
@@ -11745,6 +11774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 231170285}
   Point2: {fileID: 517364339}
   Point3: {fileID: 1095656370}
@@ -11861,6 +11892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 965573316}
   Point2: {fileID: 789129576}
@@ -11978,6 +12011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 965573316}
   Point2: {fileID: 337154291}
@@ -12079,7 +12114,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1410079903
 MonoBehaviour:
@@ -12095,6 +12130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 734281216}
   Point2: {fileID: 498267475}
@@ -12352,6 +12389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 750251940}
   Point2: {fileID: 231170285}
@@ -12451,7 +12490,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1445810548
 MonoBehaviour:
@@ -12467,6 +12506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 941436435}
   Point2: {fileID: 734281216}
@@ -12586,6 +12627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1580466805}
   Point2: {fileID: 2040112684}
   Point3: {fileID: 2024583086}
@@ -12734,6 +12777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 789129576}
   Point2: {fileID: 1875117684}
   Point3: {fileID: 418893699}
@@ -12850,6 +12895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1553094580}
   Point2: {fileID: 1993766438}
@@ -12984,6 +13031,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1621638974}
   Point2: {fileID: 960834598}
   Point3: {fileID: 1593829134}
@@ -13200,6 +13249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 2040112684}
   Point2: {fileID: 651369489}
   Point3: {fileID: 1668675257}
@@ -13331,6 +13382,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 418893699}
   Point2: {fileID: 514234649}
@@ -13465,6 +13518,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 789129576}
   Point2: {fileID: 1993766438}
   Point3: {fileID: 207477725}
@@ -13581,6 +13636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 160840925}
@@ -13698,6 +13755,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 339656538}
   Point2: {fileID: 779287928}
@@ -13817,6 +13876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1090109906}
   Point2: {fileID: 1450706581}
   Point3: {fileID: 1148208908}
@@ -13965,6 +14026,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1800458610}
   Point2: {fileID: 1482719291}
   Point3: {fileID: 160840925}
@@ -14098,6 +14161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 49454105}
   Point2: {fileID: 779287928}
   Point3: {fileID: 1800458610}
@@ -14198,7 +14263,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2115804029}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1618066079
 MonoBehaviour:
@@ -14214,6 +14279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 517364339}
   Point2: {fileID: 734281216}
@@ -14348,6 +14415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 231170285}
   Point2: {fileID: 1482719291}
   Point3: {fileID: 1800458610}
@@ -14564,6 +14633,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1026156666}
   Point2: {fileID: 1503148128}
   Point3: {fileID: 91222824}
@@ -14695,6 +14766,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1366971297}
   Point2: {fileID: 231170285}
@@ -14812,6 +14885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 49454105}
   Point2: {fileID: 1611866357}
@@ -14929,6 +15004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 49454105}
   Point2: {fileID: 1875117684}
@@ -15048,6 +15125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 236443293}
   Point2: {fileID: 1902060397}
   Point3: {fileID: 969710941}
@@ -15181,6 +15260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 651369489}
   Point2: {fileID: 474268264}
   Point3: {fileID: 969710941}
@@ -15361,6 +15442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1611866357}
   Point2: {fileID: 1800458610}
@@ -15495,6 +15578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1593829134}
   Point2: {fileID: 207477725}
   Point3: {fileID: 1621638974}
@@ -15696,6 +15781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 0}
   Script2: {fileID: 0}
+  NavPlayer: {fileID: 0}
+  NavEnemy: {fileID: 0}
   Point1: {fileID: 0}
   Point2: {fileID: 0}
   Point3: {fileID: 0}
@@ -15723,8 +15810,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.49999997
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 25
+  m_Acceleration: 100
   avoidancePriority: 50
   m_AngularSpeed: 600
   m_StoppingDistance: 0
@@ -15822,9 +15909,11 @@ MonoBehaviour:
   obstructionMask:
     serializedVersion: 2
     m_Bits: 0
+  Target: {fileID: 0}
   canseeplayer: 0
   delay: 1
   NoSeeBoost: 0
+  Switch: 0
   agent: {fileID: 1855989052}
   player: {fileID: 0}
   whatIsGround:
@@ -15888,6 +15977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 265736700}
   Point2: {fileID: 597762084}
   Point3: {fileID: 354517689}
@@ -16036,6 +16127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 49454105}
   Point2: {fileID: 779287928}
   Point3: {fileID: 1457831881}
@@ -16185,6 +16278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 2056891873}
   Point2: {fileID: 1720152520}
   Point3: {fileID: 871608621}
@@ -16414,6 +16509,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1160010197}
   Point2: {fileID: 339017377}
@@ -16531,6 +16628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 1457831881}
   Point2: {fileID: 1875117684}
@@ -16665,6 +16764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 965573316}
   Point2: {fileID: 1160010197}
   Point3: {fileID: 941436435}
@@ -16879,6 +16980,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   nav: {fileID: 1153040246}
   Point1: {fileID: 750251940}
   Point2: {fileID: 1553094580}
@@ -16998,6 +17101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 65022704}
   Point2: {fileID: 71315309}
   Point3: {fileID: 1450706581}
@@ -17131,6 +17236,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 1148208908}
   Point2: {fileID: 1503148128}
   Point3: {fileID: 1026156666}
@@ -17264,6 +17371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Script: {fileID: 897542983}
   Script2: {fileID: 1855989056}
+  NavPlayer: {fileID: 897542978}
+  NavEnemy: {fileID: 1855989048}
   Point1: {fileID: 65022704}
   Point2: {fileID: 1902060397}
   Point3: {fileID: 71315309}
@@ -17415,7 +17524,6 @@ Transform:
   - {fileID: 621018439}
   - {fileID: 1416579218}
   - {fileID: 961846743}
-  - {fileID: 34501225}
   - {fileID: 1445810547}
   - {fileID: 802330210}
   - {fileID: 1216390947}

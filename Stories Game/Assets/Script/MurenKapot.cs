@@ -6,6 +6,8 @@ public class MurenKapot : MonoBehaviour
 {
     public Enemy Script;
     public EnemyEnemy Script2;
+    public GameObject NavPlayer;
+    public GameObject NavEnemy;
     public NavigationBaker nav;
     public GameObject Point1;
     public GameObject Point2;
@@ -22,10 +24,8 @@ public class MurenKapot : MonoBehaviour
 
     void OnMouseDown()
     {
-        
-        Debug.Log("bakken");
-       
-        Debug.Log("bakken2");
+        NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
+        NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
         Script.enabled = true;
         Script2.enabled = true;
         nav.enabled = true;

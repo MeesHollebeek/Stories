@@ -15,11 +15,13 @@ public class EnemyEnemy : MonoBehaviour
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
+    public GameObject Target;
 
     public bool canseeplayer;
 
     public bool delay = true;
     public bool NoSeeBoost = false;
+    public bool Switch;
 
     //ai
     public UnityEngine.AI.NavMeshAgent agent;
@@ -50,18 +52,35 @@ public class EnemyEnemy : MonoBehaviour
     private void FixedUpdate()
     {
         player = GameObject.FindWithTag("Enemyplayer").transform;
+        Target = GameObject.FindWithTag("Enemyplayer");
 
-        if (player.tag == "Enemyplayer")
+        if (player.tag != "Enemyplayer")
         {
             StartCoroutine(WaitStillStaan());
             Debug.Log("begint");
         }
+
+        if (player.tag == "wrong")
+        {
+            player = gameObject.transform;
+        }
+
+        if(!Target.activeSelf)
+        {
+            player = gameObject.transform;
+        }
+
     }
 
     private void Awake()
     {
         player = GameObject.Find("Enemyplayer").transform;
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
+        if (player.tag == "wrong")
+        {
+            player = gameObject.transform;
+        }
     }
     private void Update()
     {
@@ -95,7 +114,7 @@ public class EnemyEnemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player") || other.gameObject.CompareTag("wrong") || other.gameObject.CompareTag("Enemyplayer"))
         {
-            Debug.Log("JAAAAAAAAAAAAAAAAA");
+           
             player = gameObject.transform;
         }
 
@@ -103,23 +122,32 @@ public class EnemyEnemy : MonoBehaviour
 
     private IEnumerator WaitStillStaan()
     {
-        Debug.Log("aangekomen");
-        yield return new WaitForSeconds(3);
+       
+        yield return new WaitForSeconds(1);
 
-        if (player.tag != "player" && player.tag != "Speler")
+        if (player.tag != "player" && player.tag != "Speler" && player.tag != "Enemyplayer")
         {
             StartCoroutine(WaitStillStaan2());
         }
-        
+        if (player.tag == "wrong" )
+        {
+            StartCoroutine(WaitStillStaan2());
+        }
+
 
     }
 
     private IEnumerator WaitStillStaan2()
     {
-        Debug.Log("aangekomen2");
-        yield return new WaitForSeconds(2);
+  
+        yield return new WaitForSeconds(1);
 
-        if (player.tag != "player" && player.tag != "Speler")
+        if (player.tag != "player" && player.tag != "Speler" && player.tag != "Enemyplayer")
+        {
+            
+        }
+
+        if (player.tag == "wrong")
         {
             player = gameObject.transform;
         }
