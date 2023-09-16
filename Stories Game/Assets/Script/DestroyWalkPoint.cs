@@ -54,7 +54,7 @@ public class DestroyWalkPoint : MonoBehaviour
             Script2.enabled = false;
             NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
-            gameObject.SetActive(false);
+            
 
 
             StartCoroutine(DelayEnable());
@@ -68,8 +68,8 @@ public class DestroyWalkPoint : MonoBehaviour
 
     private IEnumerator DelayEnable()
     {
-        yield return new WaitForSeconds(2f);
-
+        yield return new WaitForSeconds(0.2f);
+        gameObject.SetActive(false);
         Point1.SetActive(true);
         Point2.SetActive(true);
         Point3.SetActive(true);

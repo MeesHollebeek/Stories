@@ -21,11 +21,19 @@ public class Verhaal1 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag == "DonkereRider")
+        {
+            // BoxCollider BC = other.gameObject.GetComponent<BoxCollider>();
+            // BC.enabled = true;
+
+            Debug.Log("Dood");
+            Destroy(gameObject);
+
+        }
 
 
 
-
-       // Rigidbody R = Trigger.GetComponent<Rigidbody>();
+        // Rigidbody R = Trigger.GetComponent<Rigidbody>();
         if (other.gameObject.tag == "Zwaard" && !ZwaardPakken)
         {
            // BoxCollider BC = other.gameObject.GetComponent<BoxCollider>();

@@ -16,6 +16,8 @@ TagManager:
   - Zwaard
   - Prinses
   - Einde
+  - DonkereRider
+  - Verhaal1
   layers:
   - Default
   - TransparentFX
