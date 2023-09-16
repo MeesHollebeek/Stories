@@ -53,6 +53,10 @@ public class EnemyEnemy : MonoBehaviour
     {
         player = GameObject.FindWithTag("Enemyplayer").transform;
         Target = GameObject.FindWithTag("Enemyplayer");
+        if (player.tag == "wrong")
+        {
+            player = gameObject.transform;
+        }
 
         if (player.tag != "Enemyplayer")
         {
@@ -60,10 +64,7 @@ public class EnemyEnemy : MonoBehaviour
             Debug.Log("begint");
         }
 
-        if (player.tag == "wrong")
-        {
-            player = gameObject.transform;
-        }
+      
 
         if(!Target.activeSelf)
         {
@@ -74,7 +75,7 @@ public class EnemyEnemy : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("Enemyplayer").transform;
+        
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
         if (player.tag == "wrong")
@@ -105,7 +106,7 @@ public class EnemyEnemy : MonoBehaviour
 
         canseeplayer = true;
 
-        player = GameObject.Find("Enemyplayer").transform;
+      
 
         
     }

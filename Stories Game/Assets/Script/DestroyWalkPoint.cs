@@ -47,7 +47,7 @@ public class DestroyWalkPoint : MonoBehaviour
     {
 
 
-        if (other.gameObject.CompareTag("Speler"))
+        if (other.gameObject.CompareTag("Speler") && gameObject.tag == "player" || gameObject.tag == "Enemyplayer")
         {
             gameObject.tag = "wrong";
             Script.enabled = false;
