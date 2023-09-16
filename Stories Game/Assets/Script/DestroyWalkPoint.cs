@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DestroyWalkPoint : MonoBehaviour
 {
+    public Color WalkPointColor;
+    public Renderer myRenderer;
     public Enemy Script;
     public EnemyEnemy Script2;
     public GameObject NavPlayer;
@@ -17,15 +19,27 @@ public class DestroyWalkPoint : MonoBehaviour
     {
         Script.GetComponent<Enemy>();
         Script2.GetComponent<EnemyEnemy>();
+        myRenderer = gameObject.GetComponent<Renderer>();
     }
 
     void Update()
     {
+        WalkPointColor = new Color(1, 0, 0, 1);
+        myRenderer.material.color = WalkPointColor;
 
-        if(NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled == false)
+        if (NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled == false)
         {
             gameObject.tag = "wrong";
         }
+
+        if(gameObject.tag == "player" || gameObject.tag == "Enemyplayer")
+        {
+            Debug.Log("Change!");
+            myRenderer.material.color = new Color(0, 1, 0, 1);
+
+        }
+
+        
     }
 
 
@@ -41,17 +55,26 @@ public class DestroyWalkPoint : MonoBehaviour
             NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             gameObject.SetActive(false);
-  
 
-            Point1.SetActive(true);
-            Point2.SetActive(true);
-            Point3.SetActive(true);
-            Point4.SetActive(true);
+
+            StartCoroutine(DelayEnable());
 
             Point1.tag = "wrong";
             Point2.tag = "wrong";
             Point3.tag = "wrong";
             Point4.tag = "wrong";
         }
+    }
+
+    private IEnumerator DelayEnable()
+    {
+        yield return new WaitForSeconds(2f);
+
+        Point1.SetActive(true);
+        Point2.SetActive(true);
+        Point3.SetActive(true);
+        Point4.SetActive(true);
+
+
     }
 }
