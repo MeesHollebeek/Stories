@@ -7,6 +7,7 @@ public class MurenKapot : MonoBehaviour
     public Enemy Script;
     public EnemyEnemy Script2;
     public GameObject NavPlayer;
+    public GameObject KapotteMuur;
     public GameObject NavEnemy;
     public NavigationBaker nav;
     public GameObject Point1;
@@ -29,6 +30,7 @@ public class MurenKapot : MonoBehaviour
         Script.enabled = true;
         Script2.enabled = true;
         nav.enabled = true;
+        KapotteMuur.SetActive(true);
 
         Destroy(gameObject);
 

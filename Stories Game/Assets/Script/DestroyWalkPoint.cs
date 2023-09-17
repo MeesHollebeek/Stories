@@ -9,6 +9,7 @@ public class DestroyWalkPoint : MonoBehaviour
     public Enemy Script;
     public EnemyEnemy Script2;
     public GameObject NavPlayer;
+    public GameObject Buddy;
     public GameObject NavEnemy;
     public GameObject Point1;
     public GameObject Point2;
@@ -24,7 +25,7 @@ public class DestroyWalkPoint : MonoBehaviour
 
     void Update()
     {
-        WalkPointColor = new Color(1, 0, 0, 1);
+        WalkPointColor = new Color(50, 0, 0, 1);
         myRenderer.material.color = WalkPointColor;
 
         if (NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled == false)
@@ -35,11 +36,15 @@ public class DestroyWalkPoint : MonoBehaviour
         if(gameObject.tag == "player" || gameObject.tag == "Enemyplayer")
         {
             Debug.Log("Change!");
-            myRenderer.material.color = new Color(0, 1, 0, 1);
+            myRenderer.material.color = new Color(0, 50, 0, 1);
 
         }
+        if (!Buddy.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
 
-        
+
     }
 
 
@@ -69,11 +74,14 @@ public class DestroyWalkPoint : MonoBehaviour
     private IEnumerator DelayEnable()
     {
         yield return new WaitForSeconds(0.2f);
-        gameObject.SetActive(false);
+       
+        gameObject.tag = "wrong";
         Point1.SetActive(true);
         Point2.SetActive(true);
         Point3.SetActive(true);
         Point4.SetActive(true);
+        gameObject.SetActive(false);
+
 
 
     }

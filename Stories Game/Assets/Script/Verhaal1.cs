@@ -5,9 +5,12 @@ using UnityEngine;
 public class Verhaal1 : MonoBehaviour
 {
     [SerializeField] private GameObject Trigger;
+    [SerializeField] private GameObject FinishScreen;
+    [SerializeField] private GameObject DoodScreen;
     [SerializeField] private GameObject Zwaard;
     [SerializeField] private GameObject Prinses;
     [SerializeField] private GameObject Einde;
+
     public bool ZwaardPakken = false;
     public bool EindeBehaald = false;
 
@@ -27,6 +30,7 @@ public class Verhaal1 : MonoBehaviour
             // BC.enabled = true;
 
             Debug.Log("Dood");
+            DoodScreen.SetActive(true);
             Destroy(gameObject);
 
         }
@@ -70,6 +74,7 @@ public class Verhaal1 : MonoBehaviour
         {
             //einde scherm in beeld
             Debug.Log("Verhaal1Gehaald");
+            FinishScreen.SetActive(true);
 
         }
 
