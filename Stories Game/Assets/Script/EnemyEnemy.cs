@@ -18,11 +18,13 @@ public class EnemyEnemy : MonoBehaviour
     public GameObject Target;
 
     public bool canseeplayer;
+    
 
     public bool delay = true;
     public bool NoSeeBoost = false;
     public bool Switch;
 
+    public GameObject MoveSFX;
     //ai
     public UnityEngine.AI.NavMeshAgent agent;
 
@@ -106,9 +108,13 @@ public class EnemyEnemy : MonoBehaviour
 
         canseeplayer = true;
 
-      
+      if (player.tag == "Enemyplayer")
+        {
+            MoveSFX.SetActive(true);
+        }
 
-        
+
+
     }
 
     void OnTriggerEnter(Collider other)

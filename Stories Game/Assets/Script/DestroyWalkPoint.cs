@@ -15,6 +15,7 @@ public class DestroyWalkPoint : MonoBehaviour
     public GameObject Point2;
     public GameObject Point3;
     public GameObject Point4;
+    public GameObject moveSFX;
 
     void Start() 
     {
@@ -59,6 +60,7 @@ public class DestroyWalkPoint : MonoBehaviour
             Script2.enabled = false;
             NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+            moveSFX.SetActive(false);
             
 
 

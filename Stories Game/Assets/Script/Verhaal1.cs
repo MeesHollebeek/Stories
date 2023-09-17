@@ -10,6 +10,7 @@ public class Verhaal1 : MonoBehaviour
     [SerializeField] private GameObject Zwaard;
     [SerializeField] private GameObject Prinses;
     [SerializeField] private GameObject Einde;
+    [SerializeField] private GameObject DoodSFX;
 
     public bool ZwaardPakken = false;
     public bool EindeBehaald = false;
@@ -28,7 +29,7 @@ public class Verhaal1 : MonoBehaviour
         {
             // BoxCollider BC = other.gameObject.GetComponent<BoxCollider>();
             // BC.enabled = true;
-
+            DoodSFX.SetActive(true);
             Debug.Log("Dood");
             DoodScreen.SetActive(true);
             Destroy(gameObject);
