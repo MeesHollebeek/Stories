@@ -5,6 +5,7 @@ using UnityEngine;
 public class MurenKapot : MonoBehaviour
 {
     public Enemy Script;
+  
     public EnemyEnemy Script2;
     public GameObject NavPlayer;
     public GameObject KapotteMuur;
@@ -25,6 +26,7 @@ public class MurenKapot : MonoBehaviour
 
     void OnMouseDown()
     {
+
         NavPlayer.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
         NavEnemy.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
         Script.enabled = true;
