@@ -77,6 +77,7 @@ public class MurenKapot : MonoBehaviour
         Point2.tag = "player";
         Point3.tag = "Enemyplayer";
         Point4.tag = "Enemyplayer";
+        
         Destroy(gameObject);
        
     }

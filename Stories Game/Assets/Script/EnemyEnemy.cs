@@ -116,7 +116,14 @@ public class EnemyEnemy : MonoBehaviour
 
 
     }
+    private IEnumerator Activate()
+    {
 
+        yield return new WaitForSeconds(5);
+
+
+
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("player") || other.gameObject.CompareTag("wrong") || other.gameObject.CompareTag("Enemyplayer"))

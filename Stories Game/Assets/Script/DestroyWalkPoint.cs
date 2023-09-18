@@ -15,6 +15,7 @@ public class DestroyWalkPoint : MonoBehaviour
     public GameObject Point2;
     public GameObject Point3;
     public GameObject Point4;
+
     public GameObject moveSFX;
 
     void Start() 
@@ -38,11 +39,16 @@ public class DestroyWalkPoint : MonoBehaviour
         {
             Debug.Log("Change!");
             myRenderer.material.color = new Color(0, 50, 0, 1);
+            gameObject.SetActive(true);
 
         }
         if (!Buddy.activeSelf)
         {
             gameObject.SetActive(false);
+        }
+        if (Buddy.activeSelf)
+        {
+            gameObject.SetActive(true);
         }
 
 
@@ -66,10 +72,10 @@ public class DestroyWalkPoint : MonoBehaviour
 
             StartCoroutine(DelayEnable());
 
-            Point1.tag = "wrong";
-            Point2.tag = "wrong";
-            Point3.tag = "wrong";
-            Point4.tag = "wrong";
+           // Point1.tag = "wrong";
+          //  Point2.tag = "wrong";
+          //  Point3.tag = "wrong";
+          //  Point4.tag = "wrong";
         }
     }
 
@@ -78,6 +84,11 @@ public class DestroyWalkPoint : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
        
         gameObject.tag = "wrong";
+        Point1.SetActive(true);
+        Point2.SetActive(true);
+        Point3.SetActive(true);
+        Point4.SetActive(true);
+        yield return new WaitForSeconds(0.02f);
         Point1.SetActive(true);
         Point2.SetActive(true);
         Point3.SetActive(true);
